@@ -1,0 +1,54 @@
+{
+    "data" : [
+        {
+            "language": "Javascript",
+            "details": [
+                {
+                    "project": "Reunion Lake App",
+                    "description": "Built using React Native and Firebase",
+                    "link": "https://github.com/victor-betancourt/reunion-lake"
+                },
+                {
+                    "project": "JMCrafting",
+                    "description": "Built using Reactjs and MongoDB",
+                    "link": "https://www.jmcrafting.com/"
+                },
+                {
+                    "project": "This Website",
+                    "description": "Built using Nextjs",
+                    "link": "https://github.com/Millurr/portfolio-website"
+                }
+            ]
+        },
+        {
+            "language": "Dart",
+            "details": [
+                {
+                    "project": "Pump Tracker",
+                    "description": "Built using Flutter and Firebase",
+                    "link": "https://github.com/Millurr/pump_tracker"
+                }
+            ]
+        },
+        {
+            "language": "C++",
+            "details": [
+                {
+                    "project": "Hang Man (Console App)",
+                    "description": "Built using generic C++",
+                    "link": "https://github.com/Millurr/HangManCpp"
+                }
+            ]
+        },
+        {
+            "language": "Godot",
+            "details": [
+                {
+                    "project": "Pong Clone",
+                    "description": "Built using GDScript",
+                    "link": "https://github.com/Millurr/PongGodot"
+                }
+            ]
+        }
+    ]
+}
