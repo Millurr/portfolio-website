@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+::selection {
+  background-color: #ffffff;
+}
+
 body {
   background: #1b2c42;
   color: #e85858;
@@ -15,7 +19,7 @@ a {
 }
 
 nav {
-  margin: 10px auto 80px;
+  /* margin: 10px auto 80px; */
   padding: 10px 0;
   display: flex;
   /* justify-content: flex-end;
@@ -26,6 +30,7 @@ nav .links {
   margin-left: auto;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-right: 12px;
 }
 nav a {
   padding-left: 10px;
