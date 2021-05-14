@@ -16,34 +16,34 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <body>
+            <div>
 
                 {
-                    data.map((languages) => (
-                        <>
+                    data.map((languages, idx) => (
+                        <div key={idx}>
                             <h2 className={styles.subtitle}>{languages.language}</h2>
                             <div className={styles.cards}>
                                 {
-                                    languages.details.map((details) => (
-                                        Card(details)
+                                    languages.details.map((details, idx) => (
+                                        Card(details, idx)
                                     ))
                                 }
                             </div>
-                        </>
+                        </div>
                     ))
                 }
 
                 <h2 className={styles.subtitle}>
                     To be continued...
                 </h2>
-            </body>
+            </div>
         </div>
     )
 }
 
-function Card({ link, project, description }) {
+function Card({ link, project, description }, idx) {
     return (  
-        <div className={styles.card}>
+        <div className={styles.card} key={project}>
             <a href={link} target="_blank">
                 {/* <Image src="img_avatar.png" alt="Avatar" style="width:100%"/> */}
                 <div>
