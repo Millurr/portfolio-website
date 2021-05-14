@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import content from './content.json'
-import _ from 'lodash'
 
 export default function Home() {
     let data = content.data;
@@ -26,17 +25,7 @@ export default function Home() {
                             <div className={styles.cards}>
                                 {
                                     languages.details.map((details) => (
-                                        <div className={styles.card}>
-                                            <a href={details.link} target="_blank">
-                                                {/* <Image src="img_avatar.png" alt="Avatar" style="width:100%"/> */}
-                                                <div>
-                                                    <h4>
-                                                        <b>{details.project}</b>
-                                                    </h4>
-                                                    <p>{details.description}</p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                        Card(details)
                                     ))
                                 }
                             </div>
@@ -48,6 +37,22 @@ export default function Home() {
                     To be continued...
                 </h2>
             </body>
+        </div>
+    )
+}
+
+function Card({ link, project, description }) {
+    return (  
+        <div className={styles.card}>
+            <a href={link} target="_blank">
+                {/* <Image src="img_avatar.png" alt="Avatar" style="width:100%"/> */}
+                <div>
+                    <h4>
+                        <b>{project}</b>
+                    </h4>
+                    <p>{description}</p>
+                </div>
+            </a>
         </div>
     )
 }
