@@ -2,13 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/About.module.css'
 
-export default function About() {
+const About = () => {
   return (
     <div>
       <Head>
         <title>Josh Miller | About</title>
         <meta name="description" content="Some intersting things about myself." />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -22,3 +21,5 @@ export default function About() {
     </div>
   )
 }
+
+export default About;

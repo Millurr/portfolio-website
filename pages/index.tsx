@@ -12,7 +12,7 @@ interface Projects {
     }[];
 }
 
-export default function Home(): JSX.Element {
+const Home = (): JSX.Element => {
     let data: Projects[] = content.content;
 
     return (
@@ -22,7 +22,6 @@ export default function Home(): JSX.Element {
                 <meta
                     name="description"
                     content="Portfolio for my current and previous projects."/>
-                <link rel="icon" href="/favicon.ico"/>
             </Head>
 
             <div>
@@ -65,3 +64,5 @@ const Card = ({ link, project, description }, idx: number) => {
         </div>
     )
 }
+
+export default Home;
