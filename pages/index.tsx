@@ -32,8 +32,8 @@ const Home = (): JSX.Element => {
                             <h2 className={styles.subtitle}>{languages.language}</h2>
                             <div className={styles.cards}>
                                 {
-                                    languages.details.map((details, idx: number) => (
-                                        Card(details, idx)
+                                    languages.details.map((details, i: number) => (
+                                        Card(details, i)
                                     ))
                                 }
                             </div>
@@ -49,7 +49,7 @@ const Home = (): JSX.Element => {
     )
 }
 
-const Card = ({ link, project, description }, idx: number) => {
+const Card = ({ link, project, description }, idx: number): JSX.Element => {
     return (  
         <div className={styles.card} key={idx}>
             <a href={link} target="_blank">
