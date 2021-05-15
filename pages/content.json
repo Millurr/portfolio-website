@@ -6,17 +6,40 @@
                 {
                     "project": "Reunion Lake App",
                     "description": "Built using React Native and Firebase",
-                    "link": "https://github.com/victor-betancourt/reunion-lake"
+                    "link": "https://github.com/victor-betancourt/reunion-lake",
+                    "images": [
+                        {
+                            "img": "rl/img1"
+                        },
+                        {
+                            "img": "rl/img2"
+                        }
+                    ]
                 },
                 {
                     "project": "JMCrafting",
                     "description": "Built using Reactjs and MongoDB",
-                    "link": "https://www.jmcrafting.com/"
+                    "link": "https://www.jmcrafting.com/",
+                    "images": [
+                        {
+                            "img": "jm/img1"
+                        },
+                        {
+                            "img": "jm/img2"
+                        },
+                        {
+                            "img": "jm/img3"
+                        },
+                        {
+                            "img": "jm/img4"
+                        }
+                    ]
                 },
                 {
                     "project": "This Website",
                     "description": "Built using Nextjs",
-                    "link": "https://github.com/Millurr/portfolio-website"
+                    "link": "https://github.com/Millurr/portfolio-website",
+                    "images": []
                 }
             ]
         },
@@ -26,7 +49,18 @@
                 {
                     "project": "Pump Tracker",
                     "description": "Built using Flutter and Firebase",
-                    "link": "https://github.com/Millurr/pump_tracker"
+                    "link": "https://github.com/Millurr/pump_tracker",
+                    "images": [
+                        {
+                            "img": "pt/img1"
+                        },
+                        {
+                            "img": "pt/img2"
+                        },
+                        {
+                            "img": "pt/img3"
+                        }
+                    ]
                 }
             ]
         },
@@ -36,7 +70,15 @@
                 {
                     "project": "Hang Man (Console App)",
                     "description": "Built using generic C++",
-                    "link": "https://github.com/Millurr/HangManCpp"
+                    "link": "https://github.com/Millurr/HangManCpp",
+                    "images": [
+                        {
+                            "img": "hm/img1"
+                        },
+                        {
+                            "img": "hm/img2"
+                        }
+                    ]
                 }
             ]
         },
@@ -46,7 +88,15 @@
                 {
                     "project": "Pong Clone",
                     "description": "Built using GDScript",
-                    "link": "https://github.com/Millurr/PongGodot"
+                    "link": "https://github.com/Millurr/PongGodot",
+                    "images": [
+                        {
+                            "img": "gd/img1"
+                        },
+                        {
+                            "img": "gd/img2"
+                        }
+                    ]
                 }
             ]
         }

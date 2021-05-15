@@ -1,14 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import content from './content.json'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import sweetStyles from '../styles/SweetAlert.module.css';
+import content from './content.json';
+import swal from '@sweetalert/with-react';
+import { SweetAlert } from '../components/SweetAlert';
 
 interface Projects {
     language: string;
     details: {
         project: string,
         description: string,
-        link: string
+        link: string,
+        images: {
+            img: string
+        }[]
     }[];
 }
 
@@ -49,18 +55,32 @@ const Home = (): JSX.Element => {
     )
 }
 
-const Card = ({ link, project, description }, idx: number): JSX.Element => {
+const Card = ({ link, project, description, images }, idx: number): JSX.Element => {
+    const showSwal = (title: string, desc: string, imgs: string[], lnk: string) => {
+        swal({
+            className: sweetStyles.background,
+            buttons: {
+                cancel: {
+                    text: "Close",
+                    value: true,
+                    visible: true,
+                    className: sweetStyles.button,
+                    closeModal: true,
+                  }
+              },
+            content:<SweetAlert title={title} description={desc} link={lnk} img={imgs}/>
+        })
+    }
+    
     return (  
-        <div className={styles.card} key={idx}>
-            <a href={link} target="_blank">
+        <div className={styles.card} key={idx} onClick={() => showSwal(project, description, images, link)}>
                 {/* <Image src="img_avatar.png" alt="Avatar" style="width:100%"/> */}
                 <div>
                     <h4>
                         <b>{project}</b>
                     </h4>
-                    <p>{description}</p>
+                    {/* <p>{description}</p> */}
                 </div>
-            </a>
         </div>
     )
 }
