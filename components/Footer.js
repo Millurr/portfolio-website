@@ -1,6 +1,6 @@
 import { FaLinkedin } from 'react-icons/fa';
 
-export default function Footer() {
+const Footer = () => {
     return (
         <footer>
             <p><b>Email: </b>josh.miller@selu.edu | <b>Phone: </b>228-216-6215 </p> 
@@ -8,3 +8,5 @@ export default function Footer() {
         </footer>
     )
 }
+
+export default Footer;

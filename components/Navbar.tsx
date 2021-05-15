@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
 
-export default function Navbar() {
+const Navbar = () => {
     const [pathName, setPathName] = useState('');
 
     useEffect(() => {
         setPathName(window.location.pathname === '/' ? '/about' : '/');
     }, [pathName]);
 
-    function setPath(value) {
+    const setPath = (value) => {
         setPathName(value);
     }
 
@@ -22,3 +22,5 @@ export default function Navbar() {
         </nav>
     )
 }
+
+export default Navbar;
