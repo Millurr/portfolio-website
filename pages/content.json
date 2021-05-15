@@ -5,7 +5,7 @@
             "details": [
                 {
                     "project": "Reunion Lake App",
-                    "description": "Built using React Native and Firebase",
+                    "description": "Built using React Native and Firebase. This app displays the resort's general information and sends push notifications to guests with the app.",
                     "link": "https://github.com/victor-betancourt/reunion-lake",
                     "images": [
                         {
@@ -18,26 +18,26 @@
                 },
                 {
                     "project": "JMCrafting",
-                    "description": "Built using Reactjs and MongoDB",
+                    "description": "Built using Reactjs and MongoDB. This website is a full eCommerce experience. Users can buy items, manage accounts, and contact the admin via a contact page. The admin has the ability to manage orders, items, reports, and user accounts.",
                     "link": "https://www.jmcrafting.com/",
                     "images": [
                         {
-                            "img": "jm/img1"
+                            "img": "/images/jm/img1.PNG"
                         },
                         {
-                            "img": "jm/img2"
+                            "img": "/images/jm/img2.PNG"
                         },
                         {
-                            "img": "jm/img3"
+                            "img": "/images/jm/img3.PNG"
                         },
                         {
-                            "img": "jm/img4"
+                            "img": "/images/jm/img4.PNG"
                         }
                     ]
                 },
                 {
                     "project": "This Website",
-                    "description": "Built using Nextjs",
+                    "description": "Built using Nextjs. This website is used to display all of my current and previous projects. It was originally developed using javascript but converted to typescript.",
                     "link": "https://github.com/Millurr/portfolio-website",
                     "images": []
                 }
@@ -48,7 +48,7 @@
             "details": [
                 {
                     "project": "Pump Tracker",
-                    "description": "Built using Flutter and Firebase",
+                    "description": "Built using Flutter and Firebase. This was an app developed for one of my class projects. It has a clean and intuative design to allow users to track workouts and track progress along their journey.",
                     "link": "https://github.com/Millurr/pump_tracker",
                     "images": [
                         {
@@ -69,7 +69,7 @@
             "details": [
                 {
                     "project": "Hang Man (Console App)",
-                    "description": "Built using generic C++",
+                    "description": "Built using generic C++. This was a for-fun project to learn C++. Nothing overly complicated but I had fun making, none the less.",
                     "link": "https://github.com/Millurr/HangManCpp",
                     "images": [
                         {
@@ -87,7 +87,7 @@
             "details": [
                 {
                     "project": "Pong Clone",
-                    "description": "Built using GDScript",
+                    "description": "Built using GDScript. I have always had the desire to build a game. To do so, I figured I would start small with a game that has already been created many of times.",
                     "link": "https://github.com/Millurr/PongGodot",
                     "images": [
                         {

@@ -1,15 +1,15 @@
-.background {
+.container {
     background-color: #e85858;
-    color: #1b2c42
+    color: #1b2c42;
 }
 
-.background a {
-    color: #1b2c42
+.container a {
+    color: #1b2c42;
 }
 
 .button {
     background-color: #1b2c42;
-    color: #e85858
+    color: #e85858;
 }
 
 .button:not([disabled]):hover { 

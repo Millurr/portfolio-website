@@ -1,18 +1,23 @@
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import swal from '@sweetalert/with-react';
 
 interface Props {
     title: string,
     description: string,
-    img?: string[],
+    imgs?: {
+        img: string
+    }[],
     link: string
 }
 
-export const SweetAlert: React.FC<Props> = ({title, description, img, link}) => {
+export const SweetAlert: React.FC<Props> = ({title, description, link}) => {
+    
     return (  
-        <div style={{height:'500px'}}>
+        <div>
             <h1>{title}</h1>
             <p>
-            {description}
+                {description}
             </p>
 
             <a href={link} target="_blank">Source code</a>

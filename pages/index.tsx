@@ -56,9 +56,9 @@ const Home = (): JSX.Element => {
 }
 
 const Card = ({ link, project, description, images }, idx: number): JSX.Element => {
-    const showSwal = (title: string, desc: string, imgs: string[], lnk: string) => {
+    const showSwal = (title: string, desc: string, imgs: {img: string}[], lnk: string) => {
         swal({
-            className: sweetStyles.background,
+            className: sweetStyles.container,
             buttons: {
                 cancel: {
                     text: "Close",
@@ -68,7 +68,7 @@ const Card = ({ link, project, description, images }, idx: number): JSX.Element 
                     closeModal: true,
                   }
               },
-            content:<SweetAlert title={title} description={desc} link={lnk} img={imgs}/>
+            content:<SweetAlert title={title} description={desc} link={lnk} imgs={imgs}/>
         })
     }
     
