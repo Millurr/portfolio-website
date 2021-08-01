@@ -17,6 +17,13 @@ const About = () => {
         <div className={styles.container}>
           <Image className={styles.img} src="/images/IMG_0597.jpg" width={1512/8} height={2016/8}/>
         </div>
+        <p className={styles.paragraph}>
+        Computer science major with management and customer service experience seeking a
+        career in which technology and leadership skills will further organizational goals.
+        Additional strengths include communication, analytical skills, managing multiple tasks
+        efficiently, and collaborating as part of a team to ensure successful operations,
+        processes, and results.
+        </p>
       </main>
     </div>
   )
