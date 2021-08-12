@@ -6,7 +6,7 @@
                 {
                     "project": "Reunion Lake App",
                     "description": "Built using React Native and Firebase. This app displays the resort's general information and sends push notifications to guests with the app.",
-                    "link": "https://github.com/victor-betancourt/reunion-lake",
+                    "link": "https://github.com/Millurr/rl-app",
                     "images": [
                         {
                             "img": "rl/img1"
