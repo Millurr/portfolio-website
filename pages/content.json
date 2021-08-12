@@ -44,6 +44,27 @@
             ]
         },
         {
+            "language": "Go",
+            "details": [
+                {
+                    "project": "API to send email",
+                    "description": "Built using Golang, this is a simple API used for contact forms on webpages to send emails.",
+                    "link": "https://github.com/Millurr/email_api",
+                    "images": [
+                        {
+                            "img": "pt/img1"
+                        },
+                        {
+                            "img": "pt/img2"
+                        },
+                        {
+                            "img": "pt/img3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "language": "Dart",
             "details": [
                 {
