@@ -1,5 +1,5 @@
 .title {
-  color: #e85858;
+  color: white;
   /* padding-bottom: 20px; */
   text-align: center;
   /* text-decoration: underline 1px solid #ddd;
@@ -7,7 +7,7 @@
   /* border-bottom: .25px solid #ddd; */
 }
 .subtitle {
-  color: #e85858;
+  color: white;
   padding: 20px;
   text-align: left;
   font-weight: bold;
@@ -16,16 +16,6 @@
 }
 .text {
   color: #777;
-}
-.btn {
-  display: block;
-  width: 150px;
-  padding: 8px 0;
-  margin: 20px auto;
-  background: #4979ff;
-  border-radius: 4px;
-  color: white;
-  text-align: center;
 }
 
 .cards {
@@ -40,7 +30,16 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   text-align: center;
-  background-color: #233853;
+  background-color: #303133;
+  padding: 5px;
+}
+
+.card P {
+  padding: 10px;
+}
+
+.cardlink {
+  margin-bottom: 5px;
 }
 
 .card:hover {
@@ -49,4 +48,18 @@
 
 .card span {
   word-wrap: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    background-color: #303133;
+    padding: 5px;
+  }
 }

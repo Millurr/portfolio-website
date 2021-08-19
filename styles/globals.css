@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-::selection {
-  background-color: #ffffff;
-}
-
 body {
-  background: #1b2c42;
-  color: #e85858;
+  background: #202020;
+  color: white;
   font-family: "Nunito";
 }
 a {
-  color: #e85858;
+  color: white;
   text-decoration: none;
 }
 .content {
@@ -33,12 +29,10 @@ nav .links {
   padding-right: 12px;
 }
 nav a {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 nav .brand {
   margin-left: 12px;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 footer {
@@ -46,7 +40,7 @@ footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 60px;
-  color: #e85858;
+  color: white;
   border-top: 1px solid #eaeaea;
 }
 

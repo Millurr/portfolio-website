@@ -34,7 +34,12 @@
                             "img": "/images/jm/img4.PNG"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "language": "Typescript",
+            "details": [
                 {
                     "project": "This Website",
                     "description": "Built using Nextjs. This website is used to display all of my current and previous projects. It was originally developed using javascript but converted to typescript.",

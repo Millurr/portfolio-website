@@ -1,5 +1,5 @@
 .title {
-  color: #e85858;
+  color: white;
   /* padding-bottom: 20px; */
   text-align: center;
   /* text-decoration: underline 1px solid #ddd;
@@ -7,7 +7,7 @@
   /* border-bottom: .25px solid #ddd; */
 }
 .subtitle {
-  color: #e85858;
+  color: white;
   padding: 20px;
   text-align: left;
   font-weight: bold;
@@ -16,16 +16,6 @@
 }
 .text {
   color: #777;
-}
-.btn {
-  display: block;
-  width: 150px;
-  padding: 8px 0;
-  margin: 20px auto;
-  background: #4979ff;
-  border-radius: 4px;
-  color: white;
-  text-align: center;
 }
 
 .cards {

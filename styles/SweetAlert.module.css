@@ -1,19 +1,19 @@
 .container {
-    background-color: #e85858;
-    color: #1b2c42;
+    background-color: #202020;
+    color: white;
 }
 
 .container a {
-    color: #1b2c42;
+    color: white;
 }
 
 .button {
-    background-color: #1b2c42;
-    color: #e85858;
+    background-color: white;
+    color: #202020;
 }
 
 .button:not([disabled]):hover { 
-    background-color:#1b2c42; 
+    background-color:white; 
     -webkit-transition: all 0.3s ease-in-out; 
     transition: all 0.3s ease-in-out; 
   }
