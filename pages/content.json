@@ -1,6 +1,17 @@
 {
     "content" : [
         {
+            "language": ".NET Core/C#",
+            "details": [
+                {
+                    "project": "RL Task Manager (WIP)",
+                    "description": "Building using .NET Core 5 on the backend and Reactjs on the front end. A site check tracker is the current working feature on this project. I plan to further update it do digitally track daily tasks for Reunion Lake.",
+                    "link": "https://github.com/Millurr/ReactNet",
+                    "images": []
+                }
+            ]
+        },
+        {
             "language": "Javascript",
             "details": [
                 {
